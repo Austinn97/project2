@@ -1,6 +1,7 @@
 buildscript {
     dependencies {
         classpath files(mkdir('build/classes/main'))
+		classpath group: "org.robotframework", name: "swinglibrary", version: "1.9.6"
     }
 }
 plugins {
@@ -24,6 +25,7 @@ repositories {
 
 dependencies {
     testCompile 'junit:junit:4+'
+	
 }
 
 jacocoTestReport {

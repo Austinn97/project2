@@ -1,10 +1,15 @@
 import edu.jsu.mcis.*;
 
+import static java.lang.System.out;
+
+import java.util.Scanner;
+
 public class TicTacToeKeywords {
-	private TicTacToe g;
+	private TicTacToeModel g;
+
 	
 	public void StartNewGame() {
-		g = new TicTacToe();
+		g = new TicTacToeModel();
 		g.EraseGrid();
 		g.turnsLeft = 0;
 		g.whosTurn = 'X';

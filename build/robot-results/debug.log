@@ -1,277 +1,510 @@
 ==============================================================================
-20160912 20:32:02.368 - INFO - + START SUITE: Acceptancetest [ ]
+20160914 23:41:28.546 - INFO - + START SUITE: Acceptancetest [ ]
 ==============================================================================
-20160912 20:32:02.461 - INFO - +- START SUITE: Acceptancetest.TicTacToeTests [ ]
+20160914 23:41:30.093 - INFO - +- START SUITE: Acceptancetest.TicTacToeTests [ ]
 ==============================================================================
-20160912 20:32:02.477 - INFO - +-- START TEST: Win Diagonally as X [ ]
+20160914 23:41:30.109 - INFO - +-- START TEST: Win Diagonally as X [ ]
 ------------------------------------------------------------------------------
-20160912 20:32:02.477 - INFO - +--- START KW: TicTacToeKeywords.Start New Game [ ]
-20160912 20:32:02.524 - INFO - +--- END KW: TicTacToeKeywords.Start New Game (47)
+20160914 23:41:30.124 - INFO - +--- START KW: Start New Game [ ]
+20160914 23:41:30.124 - INFO - +---- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.TicTacToeVC ]
+20160914 23:41:30.843 - INFO - +---- END KW: SwingLibrary.Start Application (719)
+20160914 23:41:30.843 - INFO - +---- START KW: SwingLibrary.Select Window [ Tic Tac Toe ]
+20160914 23:41:31.077 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Tic Tac Toe'" opened
+20160914 23:41:31.077 - DEBUG - Jemmy: Frame "Frame with name or title 'Tic Tac Toe'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame0,0,0,300x300,layout=java.awt.BorderLayout,title=Tic Tac Toe,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,284x261,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20160914 23:41:31.093 - INFO - +---- END KW: SwingLibrary.Select Window (250)
+20160914 23:41:31.109 - INFO - +--- END KW: Start New Game (985)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.524 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 1 | 1 ]
-20160912 20:32:02.539 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (15)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.539 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
-20160912 20:32:02.539 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:02.555 - INFO - ${m} = X
-20160912 20:32:02.555 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (16)
-20160912 20:32:02.555 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:02.571 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:02.571 - INFO - +--- END KW: Check Location (32)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.586 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 0 | 1 ]
-20160912 20:32:02.586 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (15)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.586 - INFO - +--- START KW: Check Location [ 0 | 1 | O ]
-20160912 20:32:02.602 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:02.602 - INFO - ${m} = O
-20160912 20:32:02.618 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (0)
-20160912 20:32:02.618 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:02.618 - INFO - +---- END KW: BuiltIn.Should Be Equal (0)
-20160912 20:32:02.633 - INFO - +--- END KW: Check Location (32)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.633 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 0 | 0 ]
-20160912 20:32:02.633 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.633 - INFO - +--- START KW: Check Location [ 0 | 0 | X ]
-20160912 20:32:02.649 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:02.664 - INFO - ${m} = X
-20160912 20:32:02.664 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (15)
-20160912 20:32:02.664 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:02.680 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:02.680 - INFO - +--- END KW: Check Location (47)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.680 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 0 | 2 ]
-20160912 20:32:02.696 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (16)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.696 - INFO - +--- START KW: Check Location [ 0 | 2 | O ]
-20160912 20:32:02.696 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:02.711 - INFO - ${m} = O
-20160912 20:32:02.711 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (15)
-20160912 20:32:02.711 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:02.727 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:02.727 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.727 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 2 | 2 ]
-20160912 20:32:02.743 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (16)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.743 - INFO - +--- START KW: Check Location [ 2 | 2 | X ]
-20160912 20:32:02.758 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:02.758 - INFO - ${m} = X
-20160912 20:32:02.758 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (0)
-20160912 20:32:02.758 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:02.774 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:02.774 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.774 - INFO - +--- START KW: Winner Should Be [ X ]
-20160912 20:32:02.789 - INFO - +---- START KW: TicTacToeKeywords.Get Winner [ ]
-20160912 20:32:02.789 - INFO - Player X won diagonally.
-20160912 20:32:02.789 - INFO - ${m} = X
-20160912 20:32:02.789 - INFO - +---- END KW: TicTacToeKeywords.Get Winner (0)
-20160912 20:32:02.805 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:02.805 - INFO - +---- END KW: BuiltIn.Should Be Equal (0)
-20160912 20:32:02.805 - INFO - +--- END KW: Winner Should Be (31)
+20160914 23:41:31.109 - INFO - +--- START KW: Mark Location [ 1 | 1 ]
+20160914 23:41:31.124 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20160914 23:41:31.140 - INFO - ${component} = Location11
+20160914 23:41:31.155 - INFO - +---- END KW: BuiltIn.Catenate (31)
+20160914 23:41:31.171 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
+20160914 23:41:31.234 - DEBUG - Jemmy: Waiting for "Location11" subcomponent
+20160914 23:41:31.234 - DEBUG - Jemmy: Start to wait action "Wait for "Location11" subcomponent to be displayed"
+20160914 23:41:41.241 - DEBUG - Jemmy: "Wait for "Location11" subcomponent to be displayed" action has not been produced in 10007 milliseconds
+20160914 23:41:41.303 - FAIL - Wait for "Location11" subcomponent to be displayed
+20160914 23:41:41.303 - DEBUG - java.lang.RuntimeException: 
+	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
+	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
+	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
+	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
+	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:133)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:126)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:115)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:623)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:606)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:55)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:82)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:59)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:49)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.HintGCAfterBuild.execute(HintGCAfterBuild.java:44)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:240)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.netbeans.jemmy.TimeoutExpiredException: Wait for "Location11" subcomponent to be displayed
+	at org.netbeans.jemmy.Waiter.waitAction(Waiter.java:147)
+	at org.netbeans.jemmy.operators.ContainerOperator.waitSubComponent(ContainerOperator.java:298)
+	at org.netbeans.jemmy.operators.JComponentOperator.<init>(JComponentOperator.java:110)
+	at org.netbeans.jemmy.operators.JComponentOperator.<init>(JComponentOperator.java:122)
+	at org.robotframework.swing.component.ComponentOperator.<init>(ComponentOperator.java:31)
+	at org.robotframework.swing.component.ComponentOperatorFactory.createOperatorByName(ComponentOperatorFactory.java:32)
+	at org.robotframework.swing.component.ComponentOperatorFactory.createOperatorByName(ComponentOperatorFactory.java:24)
+	at org.robotframework.swing.factory.IdentifierParsingOperatorFactory.nameArgument(IdentifierParsingOperatorFactory.java:33)
+	at org.robotframework.swing.arguments.ArgumentParser.parseSwingArgument(ArgumentParser.java:51)
+	at org.robotframework.swing.arguments.ArgumentParser.parseArgument(ArgumentParser.java:35)
+	at org.robotframework.swing.factory.DefaultContextVerifyingOperatorFactory.parseArgument(DefaultContextVerifyingOperatorFactory.java:27)
+	at org.robotframework.swing.factory.IdentifierParsingOperatorFactory.createOperator(IdentifierParsingOperatorFactory.java:25)
+	at org.robotframework.swing.keyword.component.ComponentKeywords.operator(ComponentKeywords.java:226)
+	at org.robotframework.swing.keyword.component.ComponentKeywords.clickOnComponent(ComponentKeywords.java:71)
+	at org.robotframework.swing.keyword.component.ComponentKeywords.clickOnComponent(ComponentKeywords.java:76)
+	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
+	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
+	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$2.execute(AnnotationKeywordExtractor.java:84)
+	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
+	... 289 more
+20160914 23:41:41.319 - INFO - +---- END KW: SwingLibrary.Click On Component (10148)
+20160914 23:41:41.319 - INFO - +--- END KW: Mark Location (10210)
 ------------------------------------------------------------------------------
-20160912 20:32:02.821 - INFO - +-- END TEST: Win Diagonally as X (344)
+20160914 23:41:41.334 - INFO - +-- END TEST: Win Diagonally as X (11210)
 ------------------------------------------------------------------------------
-20160912 20:32:02.821 - INFO - +-- START TEST: Win Horizontally as O [ ]
+20160914 23:41:41.334 - INFO - +-- START TEST: Win Horizontally as O [ ]
 ------------------------------------------------------------------------------
-20160912 20:32:02.836 - INFO - +--- START KW: TicTacToeKeywords.Start New Game [ ]
-20160912 20:32:02.852 - INFO - +--- END KW: TicTacToeKeywords.Start New Game (0)
+20160914 23:41:41.350 - INFO - +--- START KW: Start New Game [ ]
+20160914 23:41:41.350 - INFO - +---- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.TicTacToeVC ]
+20160914 23:41:41.381 - INFO - +---- END KW: SwingLibrary.Start Application (31)
+20160914 23:41:41.381 - INFO - +---- START KW: SwingLibrary.Select Window [ Tic Tac Toe ]
+20160914 23:41:41.397 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Tic Tac Toe'" opened
+20160914 23:41:41.412 - DEBUG - Jemmy: Frame "Frame with name or title 'Tic Tac Toe'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame0,0,0,300x300,layout=java.awt.BorderLayout,title=Tic Tac Toe,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,284x261,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20160914 23:41:41.428 - INFO - +---- END KW: SwingLibrary.Select Window (47)
+20160914 23:41:41.444 - INFO - +--- END KW: Start New Game (78)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.852 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 1 | 1 ]
-20160912 20:32:02.852 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.852 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
-20160912 20:32:02.868 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:02.868 - INFO - ${m} = X
-20160912 20:32:02.868 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (0)
-20160912 20:32:02.868 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:02.883 - INFO - +---- END KW: BuiltIn.Should Be Equal (15)
-20160912 20:32:02.883 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.883 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 2 | 0 ]
-20160912 20:32:02.899 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (16)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.899 - INFO - +--- START KW: Check Location [ 2 | 0 | O ]
-20160912 20:32:02.914 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:02.930 - INFO - ${m} = O
-20160912 20:32:02.930 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (16)
-20160912 20:32:02.930 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:02.930 - INFO - +---- END KW: BuiltIn.Should Be Equal (0)
-20160912 20:32:02.930 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.946 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 0 | 0 ]
-20160912 20:32:02.946 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.946 - INFO - +--- START KW: Check Location [ 0 | 0 | X ]
-20160912 20:32:02.946 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:02.961 - INFO - ${m} = X
-20160912 20:32:02.961 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (15)
-20160912 20:32:02.977 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:02.977 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:02.977 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.993 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 2 | 2 ]
-20160912 20:32:02.993 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (16)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:02.993 - INFO - +--- START KW: Check Location [ 2 | 2 | O ]
-20160912 20:32:02.993 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.008 - INFO - ${m} = O
-20160912 20:32:03.008 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (15)
-20160912 20:32:03.008 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.008 - INFO - +---- END KW: BuiltIn.Should Be Equal (0)
-20160912 20:32:03.024 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.024 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 0 | 2 ]
-20160912 20:32:03.024 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.024 - INFO - +--- START KW: Check Location [ 0 | 2 | X ]
-20160912 20:32:03.039 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.039 - INFO - ${m} = X
-20160912 20:32:03.039 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (0)
-20160912 20:32:03.039 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.055 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:03.055 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.055 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 2 | 1 ]
-20160912 20:32:03.071 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.071 - INFO - +--- START KW: Check Location [ 2 | 1 | O ]
-20160912 20:32:03.071 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.071 - INFO - ${m} = O
-20160912 20:32:03.086 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (15)
-20160912 20:32:03.086 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.086 - INFO - +---- END KW: BuiltIn.Should Be Equal (0)
-20160912 20:32:03.086 - INFO - +--- END KW: Check Location (15)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.086 - INFO - +--- START KW: Winner Should Be [ O ]
-20160912 20:32:03.102 - INFO - +---- START KW: TicTacToeKeywords.Get Winner [ ]
-20160912 20:32:03.102 - INFO - Player O won horizontally.
-20160912 20:32:03.102 - INFO - ${m} = O
-20160912 20:32:03.102 - INFO - +---- END KW: TicTacToeKeywords.Get Winner (0)
-20160912 20:32:03.102 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.118 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:03.118 - INFO - +--- END KW: Winner Should Be (32)
+20160914 23:41:41.444 - INFO - +--- START KW: Mark Location [ 1 | 1 ]
+20160914 23:41:41.459 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20160914 23:41:41.475 - INFO - ${component} = Location11
+20160914 23:41:41.475 - INFO - +---- END KW: BuiltIn.Catenate (16)
+20160914 23:41:41.475 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
+20160914 23:41:41.491 - DEBUG - Jemmy: Waiting for "Location11" subcomponent
+20160914 23:41:41.491 - DEBUG - Jemmy: Start to wait action "Wait for "Location11" subcomponent to be displayed"
+20160914 23:41:51.493 - DEBUG - Jemmy: "Wait for "Location11" subcomponent to be displayed" action has not been produced in 10002 milliseconds
+20160914 23:41:51.539 - FAIL - Wait for "Location11" subcomponent to be displayed
+20160914 23:41:51.539 - DEBUG - java.lang.RuntimeException: 
+	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
+	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
+	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
+	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
+	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:133)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:126)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:115)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:623)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:606)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:55)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:82)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:59)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:49)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.HintGCAfterBuild.execute(HintGCAfterBuild.java:44)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:240)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.netbeans.jemmy.TimeoutExpiredException: Wait for "Location11" subcomponent to be displayed
+	at org.netbeans.jemmy.Waiter.waitAction(Waiter.java:147)
+	at org.netbeans.jemmy.operators.ContainerOperator.waitSubComponent(ContainerOperator.java:298)
+	at org.netbeans.jemmy.operators.JComponentOperator.<init>(JComponentOperator.java:110)
+	at org.netbeans.jemmy.operators.JComponentOperator.<init>(JComponentOperator.java:122)
+	at org.robotframework.swing.component.ComponentOperator.<init>(ComponentOperator.java:31)
+	at org.robotframework.swing.component.ComponentOperatorFactory.createOperatorByName(ComponentOperatorFactory.java:32)
+	at org.robotframework.swing.component.ComponentOperatorFactory.createOperatorByName(ComponentOperatorFactory.java:24)
+	at org.robotframework.swing.factory.IdentifierParsingOperatorFactory.nameArgument(IdentifierParsingOperatorFactory.java:33)
+	at org.robotframework.swing.arguments.ArgumentParser.parseSwingArgument(ArgumentParser.java:51)
+	at org.robotframework.swing.arguments.ArgumentParser.parseArgument(ArgumentParser.java:35)
+	at org.robotframework.swing.factory.DefaultContextVerifyingOperatorFactory.parseArgument(DefaultContextVerifyingOperatorFactory.java:27)
+	at org.robotframework.swing.factory.IdentifierParsingOperatorFactory.createOperator(IdentifierParsingOperatorFactory.java:25)
+	at org.robotframework.swing.keyword.component.ComponentKeywords.operator(ComponentKeywords.java:226)
+	at org.robotframework.swing.keyword.component.ComponentKeywords.clickOnComponent(ComponentKeywords.java:71)
+	at org.robotframework.swing.keyword.component.ComponentKeywords.clickOnComponent(ComponentKeywords.java:76)
+	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
+	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
+	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$2.execute(AnnotationKeywordExtractor.java:84)
+	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
+	... 289 more
+20160914 23:41:51.539 - INFO - +---- END KW: SwingLibrary.Click On Component (10064)
+20160914 23:41:51.555 - INFO - +--- END KW: Mark Location (10095)
 ------------------------------------------------------------------------------
-20160912 20:32:03.133 - INFO - +-- END TEST: Win Horizontally as O (297)
+20160914 23:41:51.555 - INFO - +-- END TEST: Win Horizontally as O (10221)
 ------------------------------------------------------------------------------
-20160912 20:32:03.149 - INFO - +-- START TEST: Force a Tie [ ]
+20160914 23:41:51.555 - INFO - +-- START TEST: Force a Tie [ ]
 ------------------------------------------------------------------------------
-20160912 20:32:03.149 - INFO - +--- START KW: TicTacToeKeywords.Start New Game [ ]
-20160912 20:32:03.149 - INFO - +--- END KW: TicTacToeKeywords.Start New Game (0)
+20160914 23:41:51.571 - INFO - +--- START KW: Start New Game [ ]
+20160914 23:41:51.571 - INFO - +---- START KW: SwingLibrary.Start Application [ edu.jsu.mcis.TicTacToeVC ]
+20160914 23:41:51.602 - INFO - +---- END KW: SwingLibrary.Start Application (31)
+20160914 23:41:51.602 - INFO - +---- START KW: SwingLibrary.Select Window [ Tic Tac Toe ]
+20160914 23:41:51.618 - DEBUG - Jemmy: Start to wait frame "Frame with name or title 'Tic Tac Toe'" opened
+20160914 23:41:51.618 - DEBUG - Jemmy: Frame "Frame with name or title 'Tic Tac Toe'" has been opened in 0 milliseconds
+    javax.swing.JFrame[frame0,0,0,300x300,layout=java.awt.BorderLayout,title=Tic Tac Toe,resizable,normal,defaultCloseOperation=EXIT_ON_CLOSE,rootPane=javax.swing.JRootPane[,8,31,284x261,layout=javax.swing.JRootPane$RootLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=16777673,maximumSize=,minimumSize=,preferredSize=],rootPaneCheckingEnabled=true]
+20160914 23:41:51.633 - INFO - +---- END KW: SwingLibrary.Select Window (31)
+20160914 23:41:51.633 - INFO - +--- END KW: Start New Game (62)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.149 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 1 | 1 ]
-20160912 20:32:03.164 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (15)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.164 - INFO - +--- START KW: Check Location [ 1 | 1 | X ]
-20160912 20:32:03.164 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.180 - INFO - ${m} = X
-20160912 20:32:03.180 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (16)
-20160912 20:32:03.180 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.196 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:03.196 - INFO - +--- END KW: Check Location (32)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.196 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 0 | 0 ]
-20160912 20:32:03.211 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (15)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.211 - INFO - +--- START KW: Check Location [ 0 | 0 | O ]
-20160912 20:32:03.211 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.227 - INFO - ${m} = O
-20160912 20:32:03.227 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (16)
-20160912 20:32:03.227 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.243 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:03.243 - INFO - +--- END KW: Check Location (32)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.243 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 2 | 0 ]
-20160912 20:32:03.243 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.243 - INFO - +--- START KW: Check Location [ 2 | 0 | X ]
-20160912 20:32:03.258 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.258 - INFO - ${m} = X
-20160912 20:32:03.258 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (0)
-20160912 20:32:03.258 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.274 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:03.274 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.274 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 0 | 2 ]
-20160912 20:32:03.289 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.289 - INFO - +--- START KW: Check Location [ 0 | 2 | O ]
-20160912 20:32:03.289 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.305 - INFO - ${m} = O
-20160912 20:32:03.305 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (16)
-20160912 20:32:03.305 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.305 - INFO - +---- END KW: BuiltIn.Should Be Equal (0)
-20160912 20:32:03.305 - INFO - +--- END KW: Check Location (16)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.321 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 0 | 1 ]
-20160912 20:32:03.321 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (16)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.321 - INFO - +--- START KW: Check Location [ 0 | 1 | X ]
-20160912 20:32:03.321 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.336 - INFO - ${m} = X
-20160912 20:32:03.336 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (15)
-20160912 20:32:03.336 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.336 - INFO - +---- END KW: BuiltIn.Should Be Equal (0)
-20160912 20:32:03.352 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.352 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 2 | 1 ]
-20160912 20:32:03.352 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.352 - INFO - +--- START KW: Check Location [ 2 | 1 | O ]
-20160912 20:32:03.352 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.368 - INFO - ${m} = O
-20160912 20:32:03.368 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (16)
-20160912 20:32:03.368 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.368 - INFO - +---- END KW: BuiltIn.Should Be Equal (0)
-20160912 20:32:03.383 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.383 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 1 | 2 ]
-20160912 20:32:03.383 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.383 - INFO - +--- START KW: Check Location [ 1 | 2 | X ]
-20160912 20:32:03.399 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.399 - INFO - ${m} = X
-20160912 20:32:03.399 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (0)
-20160912 20:32:03.399 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.414 - INFO - +---- END KW: BuiltIn.Should Be Equal (15)
-20160912 20:32:03.414 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.414 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 1 | 0 ]
-20160912 20:32:03.414 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.414 - INFO - +--- START KW: Check Location [ 1 | 0 | O ]
-20160912 20:32:03.430 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.430 - INFO - ${m} = O
-20160912 20:32:03.430 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (0)
-20160912 20:32:03.430 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.446 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:03.446 - INFO - +--- END KW: Check Location (32)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.446 - INFO - +--- START KW: TicTacToeKeywords.Mark Location [ 2 | 2 ]
-20160912 20:32:03.446 - INFO - +--- END KW: TicTacToeKeywords.Mark Location (0)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.446 - INFO - +--- START KW: Check Location [ 2 | 2 | X ]
-20160912 20:32:03.461 - INFO - +---- START KW: TicTacToeKeywords.Get Mark [ ${row} | ${col} ]
-20160912 20:32:03.461 - INFO - ${m} = X
-20160912 20:32:03.461 - INFO - +---- END KW: TicTacToeKeywords.Get Mark (0)
-20160912 20:32:03.461 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.477 - INFO - +---- END KW: BuiltIn.Should Be Equal (16)
-20160912 20:32:03.477 - INFO - +--- END KW: Check Location (31)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-20160912 20:32:03.477 - INFO - +--- START KW: Winner Should Be [ TIE ]
-20160912 20:32:03.493 - INFO - +---- START KW: TicTacToeKeywords.Get Winner [ ]
-20160912 20:32:03.493 - INFO - It is a Tie.
-20160912 20:32:03.493 - INFO - ${m} = TIE
-20160912 20:32:03.493 - INFO - +---- END KW: TicTacToeKeywords.Get Winner (0)
-20160912 20:32:03.493 - INFO - +---- START KW: BuiltIn.Should Be Equal [ ${m} | ${mark} ]
-20160912 20:32:03.508 - INFO - +---- END KW: BuiltIn.Should Be Equal (0)
-20160912 20:32:03.508 - INFO - +--- END KW: Winner Should Be (31)
+20160914 23:41:51.633 - INFO - +--- START KW: Mark Location [ 1 | 1 ]
+20160914 23:41:51.649 - INFO - +---- START KW: BuiltIn.Catenate [ SEPARATOR= | Location | ${row} | ${col} ]
+20160914 23:41:51.664 - INFO - ${component} = Location11
+20160914 23:41:51.664 - INFO - +---- END KW: BuiltIn.Catenate (15)
+20160914 23:41:51.664 - INFO - +---- START KW: SwingLibrary.Click On Component [ ${component} ]
+20160914 23:41:51.680 - DEBUG - Jemmy: Waiting for "Location11" subcomponent
+20160914 23:41:51.680 - DEBUG - Jemmy: Start to wait action "Wait for "Location11" subcomponent to be displayed"
+20160914 23:42:01.685 - DEBUG - Jemmy: "Wait for "Location11" subcomponent to be displayed" action has not been produced in 10005 milliseconds
+20160914 23:42:01.716 - FAIL - Wait for "Location11" subcomponent to be displayed
+20160914 23:42:01.716 - DEBUG - java.lang.RuntimeException: 
+	at org.robotframework.javalib.library.AnnotationLibrary.retrieveInnerException(AnnotationLibrary.java:148)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:130)
+	at org.robotframework.swing.SwingLibrary.runKeyword(SwingLibrary.java:112)
+	at robot.model.testcase$py.visit$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py:73)
+	at robot.model.testcase$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testcase.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.model.itemlist$py.visit$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py:68)
+	at robot.model.itemlist$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/itemlist.py)
+	at robot.model.visitor$py.visit_suite$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py:87)
+	at robot.model.visitor$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/visitor.py)
+	at robot.model.testsuite$py.visit$19(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py:160)
+	at robot.model.testsuite$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/model/testsuite.py)
+	at robot.run$py.main$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:441)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.utils.application$py._execute$10(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:91)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.utils.application$py.execute_cli$5(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py:46)
+	at robot.utils.application$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/utils/application.py)
+	at robot.run$py.run_cli$7(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py:466)
+	at robot.run$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/run.py)
+	at robot.jarrunner$py._run$3(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:63)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at robot.jarrunner$py.run$2(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py:56)
+	at robot.jarrunner$py.call_function(/Users/jmalinen/Documents/workspace/robotframework/build/Lib/robot/jarrunner.py)
+	at org.robotframework.RobotRunner.run(RobotRunner.java:73)
+	at org.robotframework.RobotFramework.run(RobotFramework.java:60)
+	at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.invoke(StaticMetaMethodSite.java:46)
+	at org.codehaus.groovy.runtime.callsite.StaticMetaMethodSite.call(StaticMetaMethodSite.java:91)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+	at org.roboscratch.gradle.RunRobot.run(RunRobot.groovy:184)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:75)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.doExecute(DefaultTaskClassInfoStore.java:133)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:126)
+	at org.gradle.api.internal.project.taskfactory.DefaultTaskClassInfoStore$StandardTaskAction.execute(DefaultTaskClassInfoStore.java:115)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:623)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:606)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:61)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.PostExecutionAnalysisTaskExecuter.execute(PostExecutionAnalysisTaskExecuter.java:35)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:64)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:58)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:203)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:185)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.processTask(AbstractTaskPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.AbstractTaskPlanExecutor$TaskExecutorWorker.run(AbstractTaskPlanExecutor.java:55)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:32)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:110)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:32)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$4.run(DefaultGradleLauncher.java:153)
+	at org.gradle.internal.Factories$1.create(Factories.java:22)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:53)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:150)
+	at org.gradle.initialization.DefaultGradleLauncher.access$200(DefaultGradleLauncher.java:32)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:98)
+	at org.gradle.initialization.DefaultGradleLauncher$1.create(DefaultGradleLauncher.java:92)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuild(DefaultGradleLauncher.java:92)
+	at org.gradle.initialization.DefaultGradleLauncher.run(DefaultGradleLauncher.java:83)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$DefaultBuildController.run(InProcessBuildActionExecuter.java:94)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:43)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:28)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:82)
+	at org.gradle.launcher.exec.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:49)
+	at org.gradle.launcher.daemon.server.exec.ExecuteBuild.doBuild(ExecuteBuild.java:59)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.WatchForDisconnection.execute(WatchForDisconnection.java:49)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ResetDeprecationLogger.execute(ResetDeprecationLogger.java:26)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon.execute(RequestStopIfSingleUsedDaemon.java:34)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:74)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput$2.call(ForwardClientInput.java:72)
+	at org.gradle.util.Swapper.swap(Swapper.java:38)
+	at org.gradle.launcher.daemon.server.exec.ForwardClientInput.execute(ForwardClientInput.java:72)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogAndCheckHealth.execute(LogAndCheckHealth.java:55)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.LogToClient.doBuild(LogToClient.java:60)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment.doBuild(EstablishBuildEnvironment.java:72)
+	at org.gradle.launcher.daemon.server.exec.BuildCommandOnly.execute(BuildCommandOnly.java:36)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.HintGCAfterBuild.execute(HintGCAfterBuild.java:44)
+	at org.gradle.launcher.daemon.server.api.DaemonCommandExecution.proceed(DaemonCommandExecution.java:120)
+	at org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy$1.run(StartBuildOrRespondWithBusy.java:50)
+	at org.gradle.launcher.daemon.server.DaemonStateCoordinator$1.run(DaemonStateCoordinator.java:240)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:54)
+	at org.gradle.internal.concurrent.StoppableExecutorImpl$1.run(StoppableExecutorImpl.java:40)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.netbeans.jemmy.TimeoutExpiredException: Wait for "Location11" subcomponent to be displayed
+	at org.netbeans.jemmy.Waiter.waitAction(Waiter.java:147)
+	at org.netbeans.jemmy.operators.ContainerOperator.waitSubComponent(ContainerOperator.java:298)
+	at org.netbeans.jemmy.operators.JComponentOperator.<init>(JComponentOperator.java:110)
+	at org.netbeans.jemmy.operators.JComponentOperator.<init>(JComponentOperator.java:122)
+	at org.robotframework.swing.component.ComponentOperator.<init>(ComponentOperator.java:31)
+	at org.robotframework.swing.component.ComponentOperatorFactory.createOperatorByName(ComponentOperatorFactory.java:32)
+	at org.robotframework.swing.component.ComponentOperatorFactory.createOperatorByName(ComponentOperatorFactory.java:24)
+	at org.robotframework.swing.factory.IdentifierParsingOperatorFactory.nameArgument(IdentifierParsingOperatorFactory.java:33)
+	at org.robotframework.swing.arguments.ArgumentParser.parseSwingArgument(ArgumentParser.java:51)
+	at org.robotframework.swing.arguments.ArgumentParser.parseArgument(ArgumentParser.java:35)
+	at org.robotframework.swing.factory.DefaultContextVerifyingOperatorFactory.parseArgument(DefaultContextVerifyingOperatorFactory.java:27)
+	at org.robotframework.swing.factory.IdentifierParsingOperatorFactory.createOperator(IdentifierParsingOperatorFactory.java:25)
+	at org.robotframework.swing.keyword.component.ComponentKeywords.operator(ComponentKeywords.java:226)
+	at org.robotframework.swing.keyword.component.ComponentKeywords.clickOnComponent(ComponentKeywords.java:71)
+	at org.robotframework.swing.keyword.component.ComponentKeywords.clickOnComponent(ComponentKeywords.java:76)
+	at org.robotframework.javalib.reflection.KeywordInvoker.invoke(KeywordInvoker.java:50)
+	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$1.execute(AnnotationKeywordExtractor.java:62)
+	at org.robotframework.javalib.beans.annotation.AnnotationKeywordExtractor$2.execute(AnnotationKeywordExtractor.java:84)
+	at org.robotframework.javalib.library.KeywordFactoryBasedLibrary.runKeyword(KeywordFactoryBasedLibrary.java:37)
+	at org.robotframework.javalib.library.AnnotationLibrary.runKeyword(AnnotationLibrary.java:128)
+	... 289 more
+20160914 23:42:01.716 - INFO - +---- END KW: SwingLibrary.Click On Component (10052)
+20160914 23:42:01.732 - INFO - +--- END KW: Mark Location (10099)
 ------------------------------------------------------------------------------
-20160912 20:32:03.508 - INFO - +-- END TEST: Force a Tie (375)
+20160914 23:42:01.732 - INFO - +-- END TEST: Force a Tie (10177)
 ------------------------------------------------------------------------------
-20160912 20:32:03.539 - INFO - +- END SUITE: Acceptancetest.TicTacToeTests (1156)
+20160914 23:42:01.794 - INFO - +- END SUITE: Acceptancetest.TicTacToeTests (33185)
 ==============================================================================
-20160912 20:32:03.571 - INFO - + END SUITE: Acceptancetest (1656)
+20160914 23:42:01.872 - INFO - + END SUITE: Acceptancetest (33967)
 ==============================================================================

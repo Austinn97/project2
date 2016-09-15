@@ -4,24 +4,13 @@ import static java.lang.System.out;
 
 import java.util.Scanner;
 
-
-public class TicTacToe {
+public class TicTacToeModel {
 	public static Scanner scan = new Scanner(System.in);
 	public static int row, col;
 	public static char[][] grid = new char[3][3];
 	public static char whosTurn = 'X';
 	public static int turnsLeft = 0;
 	public static String wonHow = "  ";
-	
-
-
-	public static void main(String[] args) {
-	NewGame();
-
-		
-	}
-	
-	
 
 	
 	public static void NewGame(){
@@ -251,3 +240,4 @@ public class TicTacToe {
 }
 }
 
+		

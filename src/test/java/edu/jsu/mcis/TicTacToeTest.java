@@ -7,71 +7,71 @@ public class TicTacToeTest {
    
 	@Test
 	public void testStartingGridIsEmpty() {
-		TicTacToe.EraseGrid();
-		assertTrue(TicTacToe.IsGridEmpty());
+		TicTacToeModel.EraseGrid();
+		assertTrue(TicTacToeModel.IsGridEmpty());
 
 	}
 	
 	@Test
 	public void testMarkXInUpperRightCorner() {
-		TicTacToe.EraseGrid();
-		TicTacToe.whosTurn = 'X';
-		TicTacToe.Mark(0, 2);
-		assertEquals('X',TicTacToe.grid[0][2]);
+		TicTacToeModel.EraseGrid();
+		TicTacToeModel.whosTurn = 'X';
+		TicTacToeModel.Mark(0, 2);
+		assertEquals('X',TicTacToeModel.grid[0][2]);
 	}
 	
 	@Test
 	public void testMarkOInBottomLeftCorner() {
-		TicTacToe.EraseGrid();
-		TicTacToe.whosTurn = 'O';
-		TicTacToe.Mark(2, 0);
-		assertEquals('O',TicTacToe.grid[2][0]);
+		TicTacToeModel.EraseGrid();
+		TicTacToeModel.whosTurn = 'O';
+		TicTacToeModel.Mark(2, 0);
+		assertEquals('O',TicTacToeModel.grid[2][0]);
 	}
 	
 	@Test
 	public void testUnableToMarkOverExisting() {
-		TicTacToe.EraseGrid();
-		TicTacToe.whosTurn = 'O';
-		TicTacToe.Mark(0, 0);
-		TicTacToe.whosTurn = 'X';
-		TicTacToe.Mark(0, 0);
-		assertEquals("This tile has already been taken.", TicTacToe.UnableToMark());
+		TicTacToeModel.EraseGrid();
+		TicTacToeModel.whosTurn = 'O';
+		TicTacToeModel.Mark(0, 0);
+		TicTacToeModel.whosTurn = 'X';
+		TicTacToeModel.Mark(0, 0);
+		assertEquals("This tile has already been taken.", TicTacToeModel.UnableToMark());
 	}
 	
 	@Test
 	public void testGameIsNotOverAfterTheFirstMark() {
-		TicTacToe.EraseGrid();
-		TicTacToe.turnsLeft = 1;
-		assertTrue(TicTacToe.StillRunning());
+		TicTacToeModel.EraseGrid();
+		TicTacToeModel.turnsLeft = 1;
+		assertTrue(TicTacToeModel.StillRunning());
 	}
 	
 	@Test
 	public void testIsGameOverHorizontalTopRow() {
-		TicTacToe.EraseGrid();
-		TicTacToe.whosTurn = 'X';
-		TicTacToe.Mark(0, 0);
-		TicTacToe.Mark(1, 1);
-		TicTacToe.Mark(0, 1);
-		TicTacToe.Mark(2, 2);
-		TicTacToe.Mark(0, 2);
-		TicTacToe.GetWinner();
-		assertEquals("X",TicTacToe.Winner());
+		TicTacToeModel.EraseGrid();
+		TicTacToeModel.whosTurn = 'X';
+		TicTacToeModel.Mark(0, 0);
+		TicTacToeModel.Mark(1, 1);
+		TicTacToeModel.Mark(0, 1);
+		TicTacToeModel.Mark(2, 2);
+		TicTacToeModel.Mark(0, 2);
+		TicTacToeModel.GetWinner();
+		assertEquals("X",TicTacToeModel.Winner());
 	}
 	
 	@Test
 	public void testTieIfAllLocationsAreFilled() {
-		TicTacToe.EraseGrid();
+		TicTacToeModel.EraseGrid();
 
-		TicTacToe.Mark(1,1);
-		TicTacToe.Mark(0, 0);
-		TicTacToe.Mark(2, 0);
-		TicTacToe.Mark(0, 2);
-		TicTacToe.Mark(0, 1);
-		TicTacToe.Mark(2, 1);
-		TicTacToe.Mark(1, 2);
-		TicTacToe.Mark(1, 0);
-		TicTacToe.Mark(2, 2);
-		TicTacToe.GetWinner();
-		assertEquals("TIE", TicTacToe.Winner());
+		TicTacToeModel.Mark(1,1);
+		TicTacToeModel.Mark(0, 0);
+		TicTacToeModel.Mark(2, 0);
+		TicTacToeModel.Mark(0, 2);
+		TicTacToeModel.Mark(0, 1);
+		TicTacToeModel.Mark(2, 1);
+		TicTacToeModel.Mark(1, 2);
+		TicTacToeModel.Mark(1, 0);
+		TicTacToeModel.Mark(2, 2);
+		TicTacToeModel.GetWinner();
+		assertEquals("TIE", TicTacToeModel.Winner());
 	}	
 }
